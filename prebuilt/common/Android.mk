@@ -62,6 +62,15 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := CMFileManager Amaze AmazeFM crDroidFileManager
 include $(BUILD_PREBUILT)
 
+#StockWallp, my photo wallpaper app
+include $(CLEAR_VARS)
+LOCAL_MODULE := StockWallp
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
 #ShishuWalls, my photo wallpaper app
 include $(CLEAR_VARS)
 LOCAL_MODULE := ShishuWalls

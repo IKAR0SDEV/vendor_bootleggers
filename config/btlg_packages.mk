@@ -1,18 +1,22 @@
 # Our Bootleg apps
 PRODUCT_PACKAGES += \
-    Email \
     QPGallery \
     MiXplorerPrebuilt \
     WallpaperPicker2 \
     MarkupGugel \
     GugelClock \
-    ShishuWalls \
-    Jelly \
     LatinIME \
     OmniStyle \
     OmniJaws \
+    StockWallp \
     Phonograph \
     ThemePicker
+
+# Our Bootleg apps
+PRODUCT_PACKAGES -= \
+    Email \
+    Jelly \
+    ShishuWalls
 
 ifeq ($(BOOTLEGGERS_BUILD_TYPE),Shishufied)
     PRODUCT_PACKAGES += \
