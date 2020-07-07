@@ -1,5 +1,6 @@
 # Our Bootleg apps
 PRODUCT_PACKAGES += \
+    Etar \
     QPGallery \
     MiXplorerPrebuilt \
     WallpaperPicker2 \
