@@ -1,8 +1,5 @@
 # Our Bootleg apps
 PRODUCT_PACKAGES += \
-    Etar \
-    QPGallery \
-    MiXplorerPrebuilt \
     WallpaperPicker2 \
     MarkupGugel \
     GugelClock \
@@ -10,13 +7,16 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniJaws \
     StockWallp \
-    Phonograph \
     ThemePicker
 
 # Our Bootleg apps
 PRODUCT_PACKAGES -= \
     Email \
     Jelly \
+    Etar \
+    QPGallery \
+    MiXplorerPrebuilt \
+    Phonograph \
     ShishuWalls
 
 ifeq ($(BOOTLEGGERS_BUILD_TYPE),Shishufied)
